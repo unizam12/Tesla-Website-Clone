@@ -31,7 +31,11 @@
 	display: flex;
 	justify-content: flex-end;
 	text-transform: uppercase;
+	margin-right: 30px;
 }
 .header_right > p {
 	margin: 10px;
+}
+.menu_holder {
+	margin-top: 10px;
 }

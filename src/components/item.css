@@ -7,14 +7,15 @@
 	background-size: cover;
 	display: flex;
 	justify-content: center;
+	scroll-snap-align: start;
 }
 
-/* .item_container {
-	width: 40vw;
+.item_container {
+	/* width: 40vw; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-} */
+}
 
 .item_text {
 	margin-top: 20%;
@@ -24,6 +25,25 @@
 	color: #393c41;
 	align-items: center;
 	flex: 1;
+	animation: fadein 2s;
+	-webkit-animation: fadein 1s;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadein {
+	/* Safari and Chrome */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .item_text_description {
@@ -40,6 +60,7 @@
 }
 
 .item_expand {
+	display: flex;
 	color: white;
 	width: 100%;
 	margin-top: 3%;

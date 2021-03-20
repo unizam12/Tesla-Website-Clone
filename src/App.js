@@ -22,14 +22,14 @@ function App() {
 					backgroundImg={SolarPanel}
 					leftBtnText="ORDER NOW"
 					leftbtnLink=""
-					rightBtnText=""
-					rightBtnLink="LEARN MORE"
+					rightBtnText="LEARN MORE"
+					rightBtnLink=""
 					twoButtons="true"
 					first
 				/>
 				<Item
-					title="MODELS"
-					desc="$ 69000"
+					title="Model S"
+					desc="Order online for Touchless Delivery"
 					desclink=""
 					backgroundImg={ModelS}
 					leftBtnText="Custom Order"
@@ -39,8 +39,8 @@ function App() {
 					twoButtons="true"
 				/>
 				<Item
-					title="Model3"
-					desc="Money Back Guarentee"
+					title="Model 3"
+					desc="Order online for Touchless Delivery"
 					desclink=""
 					backgroundImg={Model3}
 					leftBtnText="Custom Order"
@@ -50,8 +50,8 @@ function App() {
 					twoButtons="true"
 				/>
 				<Item
-					title="ModelX"
-					desc="Money back"
+					title="Model X"
+					desc="Order online for Touchless Delivery"
 					desclink=""
 					backgroundImg={ModelX}
 					leftBtnText="Custom Order"
@@ -61,8 +61,8 @@ function App() {
 					twoButtons="True"
 				/>
 				<Item
-					title="ModelY"
-					desc="Money"
+					title="Model Y"
+					desc="Order online for Touchless Delivery"
 					desclink=""
 					backgroundImg={ModelY}
 					leftBtnText="Custom Order"
